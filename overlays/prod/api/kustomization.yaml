@@ -2,17 +2,16 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: shortener-prod
 resources:
-  - namespace.yaml
-  - secret.yaml
-  - ../../../base/api
+- namespace.yaml
+- secret.yaml
+- ../../../base/api
 
 patches:
-  - path: domain.json
-    target:
-      kind: Ingress
-      name: shortener-api-ingress
+- path: domain.json
+  target:
+    kind: Ingress
+    name: shortener-api-ingress
 
 images:
-  - name: scgskku/shortener-api
-    newName: scgskku/shortener-api
-    newTag: 0.0.1
+- name: scgskku/shortener-api
+  newTag: 2f17c4f7cbb01404ba73e07b002c9f5025857a7c
