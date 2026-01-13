@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shortener-api-deployment
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: shortener-api
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: shortener-api
+    spec:
+      containers:
+      - name: shortener-api
+        image: scgskku/shortener-api:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8000
+        envFrom:
+        - secretRef:
+            name: shortener-secret
