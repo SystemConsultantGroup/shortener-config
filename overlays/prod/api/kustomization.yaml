@@ -14,4 +14,4 @@ patches:
 
 images:
 - name: scgskku/shortener-api-prod
-  newTag: bce8ea35c57723fd0d91737495e2b1a4fa6815fd
+  newTag: 4bb912aaa4361e3bd51c3eca5acfa042288b0e2a
