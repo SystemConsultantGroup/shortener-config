@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: shortener-api
-        image: scgskku/shortener-api:latest
+        image: scgskku/shortener-api
         imagePullPolicy: Always
         ports:
         - containerPort: 8000

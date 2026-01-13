@@ -13,7 +13,7 @@ spec:
         app.kubernetes.io/name: fe
     spec:
       containers:
-      - image: scgskku/shortener-fe-prod
+      - image: scgskku/shortener-fe
         imagePullPolicy: Always
         name: fe
         ports:
