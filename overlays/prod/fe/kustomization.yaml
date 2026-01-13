@@ -14,4 +14,4 @@ patches:
 
 images:
 - name: scgskku/shortener-fe-prod
-  newTag: 0.0.1
+  newTag: 4a4aa8845e08d0f56fde66f2dd22a08224f229f5
