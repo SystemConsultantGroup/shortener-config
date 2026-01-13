@@ -13,5 +13,5 @@ patches:
     name: shortener-api-ingress
 
 images:
-- name: scgskku/shortener-api
+- name: scgskku/shortener-api-prod
   newTag: 2f17c4f7cbb01404ba73e07b002c9f5025857a7c
