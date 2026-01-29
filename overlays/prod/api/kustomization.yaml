@@ -6,12 +6,6 @@ resources:
 - secret.yaml
 - ../../../base/api
 
-patches:
-- path: domain.json
-  target:
-    kind: Ingress
-    name: shortener-api-ingress
-
 images:
 - name: scgskku/shortener-api
   newName: scgskku/shortener-api-prod
