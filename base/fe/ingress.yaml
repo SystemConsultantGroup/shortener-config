@@ -12,7 +12,7 @@ spec:
   tls:
     - hosts:
         - app.shortener.scg.skku.ac.kr
-      secretName: gitops-tls
+      secretName: gitops-fe-tls
   rules:
     - host: app.shortener.scg.skku.ac.kr
       http:
