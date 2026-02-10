@@ -23,8 +23,8 @@ spec:
                 name: shortener-api-service
                 port:
                   number: 80
-          - path: /
-            pathType: Prefix
+          - path: /(.*)
+            pathType: ImplementationSpecific
             backend:
               service:
                 name: shortener-api-service
