@@ -18,7 +18,7 @@ spec:
     - host: shortener.scg.skku.ac.kr
       http:
         paths:
-          - path: /v1/(.*)
+          - path: /api/v1/(.*)
             pathType: ImplementationSpecific
             backend:
               service:
