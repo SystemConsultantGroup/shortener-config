@@ -14,4 +14,4 @@ images:
 - name: scgskku/shortener-fe
   newName: scgskku/shortener-fe-qa
 - name: scgskku/shortener-fe-qa
-  newTag: 51c7150a758f59c9f32d6a9681d458eb63168305
+  newTag: ca99bf0fa0b0dcfb7a9a88c0d01a075b44730c2c
