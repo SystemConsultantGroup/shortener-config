@@ -10,4 +10,4 @@ images:
 - name: scgskku/shortener-api
   newName: scgskku/shortener-api-prod
 - name: scgskku/shortener-api-prod
-  newTag: 179cefda0ac34d14d72be493635726b166d1c293
+  newTag: 7d0292f4a306431768f26c5050fbf754a6982018
