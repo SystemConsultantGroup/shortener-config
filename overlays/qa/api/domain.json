@@ -8,5 +8,20 @@
         "op": "replace",
         "path": "/spec/tls/0/hosts/0",
         "value": "shortener-qa.scg.skku.ac.kr"
+    },
+    {
+        "op": "add",
+        "path": "/spec/tls/0/hosts/-",
+        "value": "api.shortener-qa.scg.skku.ac.kr"
+    },
+    {
+        "op": "copy",
+        "path": "/spec/rules/-",
+        "from": "/spec/rules/0"
+    },
+    {
+        "op": "replace",
+        "path": "/spec/rules/1/host",
+        "value": "api.shortener-qa.scg.skku.ac.kr"
     }
 ]
