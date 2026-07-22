@@ -11,10 +11,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - scg.sh
+        - app.scg.sh
       secretName: gitops-fe-tls
   rules:
-    - host: scg.sh
+    - host: app.scg.sh
       http:
         paths:
           - backend:

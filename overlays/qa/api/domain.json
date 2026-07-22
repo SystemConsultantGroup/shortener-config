@@ -1,27 +1,22 @@
 [
     {
         "op": "replace",
-        "path": "/spec/rules/0/host",
+        "path": "/spec/tls/0/hosts/0",
+        "value": "api.shortener-qa.scg.skku.ac.kr"
+    },
+    {
+        "op": "replace",
+        "path": "/spec/tls/0/hosts/1",
         "value": "shortener-qa.scg.skku.ac.kr"
     },
     {
         "op": "replace",
-        "path": "/spec/tls/0/hosts/0",
-        "value": "shortener-qa.scg.skku.ac.kr"
-    },
-    {
-        "op": "add",
-        "path": "/spec/tls/0/hosts/-",
+        "path": "/spec/rules/0/host",
         "value": "api.shortener-qa.scg.skku.ac.kr"
-    },
-    {
-        "op": "copy",
-        "path": "/spec/rules/-",
-        "from": "/spec/rules/0"
     },
     {
         "op": "replace",
         "path": "/spec/rules/1/host",
-        "value": "api.shortener-qa.scg.skku.ac.kr"
+        "value": "shortener-qa.scg.skku.ac.kr"
     }
 ]
