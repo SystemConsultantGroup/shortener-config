@@ -8,7 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: "true"
     nginx.ingress.kubernetes.io/rewrite-target: /$1
     nginx.ingress.kubernetes.io/enable-cors: "true"
-    nginx.ingress.kubernetes.io/cors-allow-origin: "https://app.shortener.scg.skku.ac.kr, https://app.shortener-qa.scg.skku.ac.kr"
+    nginx.ingress.kubernetes.io/cors-allow-origin: "https://scg.sh, https://app.shortener-qa.scg.skku.ac.kr"
 spec:
   tls:
     - hosts:
