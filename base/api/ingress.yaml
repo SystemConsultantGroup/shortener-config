@@ -12,10 +12,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - scg.sh
+        - api.shortener.scg.skku.ac.kr
       secretName: gitops-be-tls
   rules:
-    - host: app.shortener.scg.skku.ac.kr
+    - host: api.shortener.scg.skku.ac.kr
       http:
         paths:
           - path: /
